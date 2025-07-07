@@ -1,0 +1,101 @@
+(ExpressProject "hw0"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\hw0.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\hw0-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\hw0-pspicefiles\schematic1\hw2.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\hw0-pspicefiles\schematic1\hw2.sim"
+        (DisplayName "SCHEMATIC1-hw2")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (BC817
+      (FullPartName "BC817.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\INFINEON_S_AFBJT.OLB")
+      (DeviceIndex "0"))
+    (Q2N3866
+      (FullPartName "Q2N3866.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (Q2N3904
+      (FullPartName "Q2N3904.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (Q2N3903
+      (FullPartName "Q2N3903.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (Q2N3946
+      (FullPartName "Q2N3946.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (PZT43
+      (FullPartName "PZT43.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\INFINEON_S_AFBJT.OLB")
+      (DeviceIndex "0"))
+    (Q2N3932
+      (FullPartName "Q2N3932.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (Q2N3906
+      (FullPartName "Q2N3906.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (Q2N3905
+      (FullPartName "Q2N3905.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (D1N5821
+      (FullPartName "D1N5821.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -11 -45 0 202 0 363"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -11 -45 152 1806 152 571")
+        (Scroll "-135 183")
+        (Zoom "158")
+        (Occurrence "/"))
+      (Path "D:\0723\HW0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "liubo"))
